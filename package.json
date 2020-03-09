@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "phaser": "^3.22.0",
+    "requirejs": "^2.3.6"
+  },
+  "devDependencies": {
+    "path": "^0.12.7",
+    "phaser": "^3.22.0",
+    "requirejs": "^2.3.6",
+    "webpack": "^4.42.0"
+  },
+  "name": "english",
+  "version": "1.0.0",
+  "description": "Game for learning how to make correct sentences",
+  "main": "main.js",
+  "scripts": {
+    "local": "webpack --env.PUBLIC_PATH='dist/'",
+    "build": "webpack"
+  },
+  "keywords": [
+    "phaser3",
+    "english",
+    "game",
+    "canvas",
+    "score"
+  ],
+  "author": "Rew1L",
+  "license": "ISC"
+}
